@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>596</width>
+    <height>522</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="gridWidget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>130</y>
+      <width>591</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="2" column="3">
+      <widget class="QCheckBox" name="A12">
+       <property name="text">
+        <string>飲料</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QCheckBox" name="A7">
+       <property name="text">
+        <string>日式</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QCheckBox" name="A8">
+       <property name="text">
+        <string>泰式</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QCheckBox" name="A11">
+       <property name="text">
+        <string>冰品</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="A1">
+       <property name="text">
+        <string>速食</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QCheckBox" name="A3">
+       <property name="text">
+        <string>台式</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QCheckBox" name="A10">
+       <property name="text">
+        <string>甜點</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QCheckBox" name="A5">
+       <property name="text">
+        <string>美式</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QCheckBox" name="A6">
+       <property name="text">
+        <string>港式</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QCheckBox" name="A2">
+       <property name="text">
+        <string>自助</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QCheckBox" name="A9">
+       <property name="text">
+        <string>其他（小點心）</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QCheckBox" name="A4">
+       <property name="text">
+        <string>義式</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QCheckBox" name="A13">
+       <property name="text">
+        <string>咖啡廳</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QCheckBox" name="A14">
+       <property name="text">
+        <string>複合式</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>90</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;請選擇想要的餐廳類型&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>20</y>
+      <width>591</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;NTU Big Eater&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>250</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;請選擇預算&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>290</y>
+      <width>571</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="2">
+      <widget class="QCheckBox" name="B3">
+       <property name="text">
+        <string>250 ~ 500 元</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QCheckBox" name="B4">
+       <property name="text">
+        <string>500 元以上</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="B1">
+       <property name="text">
+        <string>1 ~ 150 元</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QCheckBox" name="B2">
+       <property name="text">
+        <string>150~ 250 元</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>340</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;請選擇地點&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>380</y>
+      <width>571</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="C1">
+       <property name="text">
+        <string>校內</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QCheckBox" name="C2">
+       <property name="text">
+        <string>新生南路側</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QCheckBox" name="C3">
+       <property name="text">
+        <string>辛亥路側</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QCheckBox" name="C4">
+       <property name="text">
+        <string>基隆路側</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QCheckBox" name="C5">
+       <property name="text">
+        <string>羅斯福路側</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QCheckBox" name="C6">
+       <property name="text">
+        <string>遙遠的彼方</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="eatBtn">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>460</y>
+      <width>80</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>吃！</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="teamupBtn">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>460</y>
+      <width>80</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>揪團吃！</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
