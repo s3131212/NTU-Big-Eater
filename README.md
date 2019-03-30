@@ -11,6 +11,7 @@ If the user want to enjoy lunch with others, he or she can post the request and 
 
 ## Server  
 A simple HTTP server to handle team up request.  
+The code is from the post [Lightweight HTTP Server in less than 40 Lines on libevent and C++11](https://kukuruku.co/post/lightweight-http-server-in-less-than-40-lines-on-libevent-and-c-11/) and modified to meet our needs.
 
 ## Appreciation
-This is the final project for the course Programming Design at NTU Information Management. I highly appreciate my teammates works and thanks the professor.  
+This is the final project for the course Programming Design at Dept. of Information Management, National Taiwan University. I highly appreciate my teammates works and thanks the professor, I won't be able to finish this project without their help.  
